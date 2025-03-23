@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  background-color: lightskyblue;
+}
+.container {
+  display: flex;
+  gap: 30px;
+  max-width: 42rem;
+  width: 100%;
+}
+.title {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  list-style: none;
+  padding: 0;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+
+  border-radius: 8px;
+  cursor: pointer;
+}
+.list-item:nth-child(odd) {
+  background-color: #f0f0f0; /* Color para elementos impares */
+}
+.list-item:nth-child(even) {
+  background-color: rgba(236, 236, 229, 0.452); /* Color para elementos pares */
+}
